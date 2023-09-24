@@ -14,3 +14,5 @@ npm install cors dotenv express nodemon openai
 
 
 ----> we have to keep the .env file always inside the server folder
+
+start coding 
