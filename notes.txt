@@ -1,0 +1,16 @@
+npm create vite@latest client(app name) --template vanilla (for creating a app with vanilla js )
+select vanilla frame work with javascript variant 
+dive into client app by cd client
+then download the dependencies 
+npm i 
+
+now for the server side we are using node.js 
+
+for this close the client side and create server folder 
+npm init -y (for creating entry point from index.js with package.json file )
+now install the necessary dependencies like cors(cross origin request shedule) express nodemon openai
+npm install cors dotenv express nodemon openai
+
+
+
+----> we have to keep the .env file always inside the server folder
