@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
 
   // Fetching data from the server
   try {
-    const response = await fetch('http://localhost:5000/generate-response', {
+    const response = await fetch('https://web-gpt-5esa.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
